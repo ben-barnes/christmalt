@@ -1,0 +1,12 @@
+version: '2'
+services:
+  christmalt_db:
+    build: postgres
+    ports:
+      - "5432:5432"
+  flyway:
+    build: flyway
+    expose:
+      - "5432"
+    depends_on:
+      - christmalt_db
