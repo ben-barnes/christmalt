@@ -1,0 +1,9 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+extra-deps:
+- HDBC-postgresql-2.3.2.4
+- servant-0.9.1.1
+- servant-client-0.9.1.1
+resolver: lts-7.10

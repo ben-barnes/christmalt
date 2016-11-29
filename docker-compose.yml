@@ -10,3 +10,10 @@ services:
       - "5432"
     depends_on:
       - christmalt_db
+#  christmalt_app:
+#    build: app
+#    expose:
+#      - "5432"
+#    depends_on:
+#      - flyway
+#      - christmalt_db
